@@ -68,7 +68,7 @@ Tennis Match App is a simple tool for tracking friendly tennis matches in small 
 <img src="https://github.com/MMDREZA7/tennis_match_calculator/blob/84a1a4ce7fd3108ffc818637cce7db2ea3074685/screenshots/Screenshot_1764416681.png" width="150" />
 
 ### History – list of Payers in tournament
-<img src="https://github.com/MMDREZA7/tennis_match_calculator/blob/84a1a4ce7fd3108ffc818637cce7db2ea3074685/screenshots/Screenshot_1764416684.png)" width="150" />
+<img src="https://github.com/MMDREZA7/tennis_match_calculator/blob/84a1a4ce7fd3108ffc818637cce7db2ea3074685/screenshots/Screenshot_1764416684.png" width="150" />
 
 ### Settings and reset dialog
 <img src="https://github.com/MMDREZA7/tennis_match_calculator/blob/84a1a4ce7fd3108ffc818637cce7db2ea3074685/screenshots/Screenshot_1764416674.png" width="150" />
