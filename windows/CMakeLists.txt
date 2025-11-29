@@ -4,8 +4,8 @@ project(tennis_calculator LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
-set(BINARY_NAME "Tennis match Calculator V.0.1.0")
-set(WINDOWS_APP_ICON "runner/resources/tennnis_icon.ico")
+set(BINARY_NAME "tennis_match_calculator_V.0.1.0")
+set(WINDOWS_APP_ICON "runner/resources/app_icon.ico")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.
