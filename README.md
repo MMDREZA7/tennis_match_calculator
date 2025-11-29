@@ -75,7 +75,7 @@ Tennis Match App is a simple tool for tracking friendly tennis matches in small 
 
 ## Downloads
 
-- [Download latest Windows build](https://github.com/MMDREZA7/tennis_match_calculator/releases/download/Windows/tennis_calculator.exe)
+- [Download latest Windows build](https://github.com/MMDREZA7/tennis_match_calculator/releases/download/Windows/Tennis_mach_Calculator.Windows.V.0.1.0.rar)
 - [Download latest Android build](https://github.com/MMDREZA7/tennis_match_calculator/releases/download/Android/app-release.apk)
 
 ## About the Developer
