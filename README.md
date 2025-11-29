@@ -52,11 +52,32 @@ Tennis Match App is a simple tool for tracking friendly tennis matches in small 
 
 ## Screenshots
 
-| Screen | Image |
-|--------|-------|
-| Home – player list and today’s play | <img src="Screenshot_1764416586.jpg" width="260" /> |
-| Match result dialog | <img src="Screenshot_1764416605.jpg" width="260" /> |
-| Competitive tab – generated schedule | <img src="Screenshot_1764416653.jpg" width="260" /> |
-| Daily stats and matches | <img src="Screenshot_1764416684.jpg" width="260" /> |
-| History – list of tournaments | <img src="Screenshot_1764416681.jpg" width="260" /> |
-| Settings and reset dialog | <img src="Screenshot_1764416674.jpg" width="260" /> |
+### Home – player list and today’s play
+<img src="[Screenshot_1764416586.jpg](https://github.com/MMDREZA7/tennis_match_calculator/blob/84a1a4ce7fd3108ffc818637cce7db2ea3074685/screenshots/Screenshot_1764416586.png)" width="150" />
+
+### Match result dialog
+<img src="Screenshot_1764416605.jpg" width="150" />
+
+### Competitive tab – generated schedule
+<img src="Screenshot_1764416653.jpg" width="150" />
+
+### Daily stats and matches
+<img src="Screenshot_1764416684.jpg" width="150" />
+
+### History – list of tournaments
+<img src="Screenshot_1764416681.jpg" width="150" />
+
+### Settings and reset dialog
+<img src="Screenshot_1764416674.jpg" width="150" />
+
+## Downloads
+
+- [Download latest Windows build](https://github.com/MMDREZA7/only_faleh_hafez/releases/download/Windows/x64.rar)
+- [Download latest Android build](https://github.com/MMDREZA7/only_faleh_hafez/releases/download/Android/app-release.apk)
+
+## About the Developer
+
+This app is developed by Mohammadreza.  
+You can see more projects and contact information in the personal portfolio:
+
+👉 **Portfolio:** <https://mmdreza7.github.io/Athan_Portfolio/>
