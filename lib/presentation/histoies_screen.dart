@@ -18,9 +18,9 @@ class HistoryScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("History")),
-      body: BlocBuilder<MatchHistoryBloc, HistoryState>(
+      body: BlocBuilder<MatchHistoryBloc, MatchHistoryState>(
         builder: (context, state) {
-          if (state is HistoryLoaded && state.histories.isNotEmpty) {
+          if (state is MatchHistoryLoaded && state.histories.isNotEmpty) {
             return ListView.builder(
               itemCount: state.histories.length,
               itemBuilder: (context, index) {

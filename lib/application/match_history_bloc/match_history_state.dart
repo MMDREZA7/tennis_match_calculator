@@ -1,22 +1,19 @@
 import 'package:equatable/equatable.dart';
-import 'package:tennis_calculator/domain/models/match_history.dart';
+import '../../domain/models/match_history.dart';
 
-abstract class HistoryState extends Equatable {
-  const HistoryState();
-
+abstract class MatchHistoryState extends Equatable {
+  const MatchHistoryState();
   @override
   List<Object?> get props => [];
 }
 
-class HistoryInitial extends HistoryState {
-  const HistoryInitial();
+class MatchHistoryInitial extends MatchHistoryState {
+  const MatchHistoryInitial();
 }
 
-class HistoryLoaded extends HistoryState {
+class MatchHistoryLoaded extends MatchHistoryState {
   final List<MatchHistory> histories;
-
-  const HistoryLoaded(this.histories);
-
+  MatchHistoryLoaded(this.histories);
   @override
   List<Object?> get props => [histories];
 }

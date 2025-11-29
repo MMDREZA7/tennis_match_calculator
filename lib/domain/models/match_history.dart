@@ -1,10 +1,11 @@
 import 'package:equatable/equatable.dart';
-import 'player_game.dart';
+import 'player.dart';
+import 'game_score.dart';
 
 class MatchHistory extends Equatable {
   final DateTime createdAt;
   final List<Player> players;
-  final List<List<Player>> matches;
+  final List<GameScore> matches;
 
   const MatchHistory({
     required this.createdAt,
@@ -15,16 +16,16 @@ class MatchHistory extends Equatable {
   Map<String, dynamic> toJson() => {
         'createdAt': createdAt.toIso8601String(),
         'players': players.map((p) => p.toJson()).toList(),
-        'matches':
-            matches.map((m) => m.map((p) => p.toJson()).toList()).toList(),
+        'matches': matches.map((m) => m.toJson()).toList(),
       };
 
   factory MatchHistory.fromJson(Map<String, dynamic> json) => MatchHistory(
-        createdAt: DateTime.parse(json['createdAt']),
-        players:
-            (json['players'] as List).map((e) => Player.fromJson(e)).toList(),
-        matches: (json['matches'] as List)
-            .map((m) => (m as List).map((e) => Player.fromJson(e)).toList())
+        createdAt: DateTime.parse(json['createdAt'] as String),
+        players: (json['players'] as List<dynamic>)
+            .map((e) => Player.fromJson(e as Map<String, dynamic>))
+            .toList(),
+        matches: (json['matches'] as List<dynamic>)
+            .map((e) => GameScore.fromJson(e as Map<String, dynamic>))
             .toList(),
       );
 

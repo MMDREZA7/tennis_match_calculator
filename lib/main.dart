@@ -36,6 +36,7 @@ class TennisApp extends StatelessWidget {
         title: 'Tennis Match App',
         theme: ThemeData(
           primaryColor: baseGreen,
+          fontFamily: 'comicrelief',
           colorScheme:
               ColorScheme.fromSwatch().copyWith(secondary: tennisYellow),
           appBarTheme: AppBarTheme(

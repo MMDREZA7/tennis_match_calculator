@@ -1,10 +1,9 @@
-part of 'players_bloc.dart';
+import 'package:equatable/equatable.dart';
+import '../../domain/models/player.dart';
 
-sealed class PlayersState extends Equatable {
-  const PlayersState();
-
+abstract class PlayersState extends Equatable {
   @override
-  List<Object> get props => [];
+  List<Object?> get props => [];
 }
 
 class PlayersInitial extends PlayersState {}
@@ -14,4 +13,6 @@ class PlayersLoading extends PlayersState {}
 class PlayersLoaded extends PlayersState {
   final List<Player> players;
   PlayersLoaded(this.players);
+  @override
+  List<Object?> get props => [players];
 }

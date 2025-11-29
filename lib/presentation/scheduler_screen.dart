@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:tennis_calculator/application/matches_bloc/matchs_bloc.dart';
 import 'package:tennis_calculator/application/players_bloc/players_bloc.dart';
-import 'package:tennis_calculator/domain/models/player_game.dart';
+import 'package:tennis_calculator/domain/models/player.dart';
 import 'package:tennis_calculator/domain/models/tournament.dart';
 
 class SchedulerScreen extends StatefulWidget {

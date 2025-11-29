@@ -1,14 +1,13 @@
 import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:tennis_calculator/domain/models/player_game.dart';
+import 'package:tennis_calculator/domain/models/player.dart';
 import 'package:tennis_calculator/domain/models/tournament.dart';
 
 part 'matchs_event.dart';
 part 'matchs_state.dart';
 
 class MatchsBloc extends Bloc<MatchesEvent, MatchesState> {
-  // اینجا دیگه global نیست، داخل خود Bloc نگه می‌داریم
   final List<List<Player>> _games = [];
 
   MatchsBloc() : super(MatchesInitial()) {

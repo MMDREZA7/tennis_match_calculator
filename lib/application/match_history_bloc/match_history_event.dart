@@ -1,33 +1,25 @@
 import 'package:equatable/equatable.dart';
-import 'package:tennis_calculator/domain/models/match_history.dart';
+import '../../domain/models/match_history.dart';
 
-abstract class HistoryEvent extends Equatable {
-  const HistoryEvent();
-
+abstract class MatchHistoryEvent extends Equatable {
   @override
   List<Object?> get props => [];
 }
 
-class AddHistory extends HistoryEvent {
+class AddHistory extends MatchHistoryEvent {
   final MatchHistory history;
-  const AddHistory(this.history);
-
+  AddHistory(this.history);
   @override
   List<Object?> get props => [history];
 }
 
-class RemoveHistory extends HistoryEvent {
+class RemoveHistory extends MatchHistoryEvent {
   final MatchHistory history;
-  const RemoveHistory(this.history);
-
+  RemoveHistory(this.history);
   @override
   List<Object?> get props => [history];
 }
 
-class ClearHistory extends HistoryEvent {
-  const ClearHistory();
-}
+class ClearHistories extends MatchHistoryEvent {}
 
-class LoadHistory extends HistoryEvent {
-  const LoadHistory();
-}
+class LoadHistory extends MatchHistoryEvent {}

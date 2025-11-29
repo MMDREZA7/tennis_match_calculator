@@ -1,4 +1,4 @@
-import 'package:tennis_calculator/domain/models/player_game.dart';
+import 'package:tennis_calculator/domain/models/player.dart';
 
 enum TournamentType { League, Cup }
 
