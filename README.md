@@ -56,13 +56,13 @@ Tennis Match App is a simple tool for tracking friendly tennis matches in small 
 <img src="https://github.com/MMDREZA7/tennis_match_calculator/blob/84a1a4ce7fd3108ffc818637cce7db2ea3074685/screenshots/Screenshot_1764416586.png" width="150" />
 
 ### Match result dialog
-<img src="Screenshot_1764416605.jpg" width="150" />
+<img src="https://github.com/MMDREZA7/tennis_match_calculator/blob/84a1a4ce7fd3108ffc818637cce7db2ea3074685/screenshots/Screenshot_1764416605.png" width="150" />
 
 ### Competitive tab – generated schedule
-<img src="Screenshot_1764416653.jpg" width="150" />
+<img src="https://github.com/MMDREZA7/tennis_match_calculator/blob/main/screenshots/Screenshot_1764416649.png?raw=true" width="150" />
 
-### Daily stats and matches
-<img src="Screenshot_1764416684.jpg" width="150" />
+### Leage and Cup matches
+<img src="https://github.com/MMDREZA7/tennis_match_calculator/blob/84a1a4ce7fd3108ffc818637cce7db2ea3074685/screenshots/Screenshot_1764416653.png" width="150" />
 
 ### History – list of tournaments
 <img src="Screenshot_1764416681.jpg" width="150" />
